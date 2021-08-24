@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import StatsCard from './components/StatsCard';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Stats Preview Card</h1>
+    <div className='App'>
+      <StatsCard />
     </div>
   );
 }

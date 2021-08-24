@@ -2,3 +2,36 @@
   text-align: center;
 }
 
+body {
+}
+
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-container {
+  border: 1px solid blue;
+  width: 792px;
+}
+
+.hero-image {
+}
+
+.title {
+}
+
+.description {
+}
+
+.companies-container {
+}
+
+.templates-container {
+}
+
+.queries-container {
+}
