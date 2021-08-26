@@ -27,16 +27,15 @@ body {
 .hero-image-container {
 }
 
-.hero-overlay {
-  background-color: #aa5cdb;
-  position: relative;
-  width: 100%;
-  opacity: 0.2;
-  z-index: 2;
-}
-
 .hero-image {
-  max-width: 100%;
+  width: 100%;
+  min-height: 30vh;
+  background-color: hsl(277, 64%, 61%);
+  background-image: url(./images/image-header-mobile.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }

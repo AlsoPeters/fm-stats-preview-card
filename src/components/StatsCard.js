@@ -5,10 +5,7 @@ export default function StatsCard() {
     <div className='app-container'>
       <div className='card-container'>
         <div className='hero-image-container'>
-          <div className='hero-overlay'></div>
-          <div>
-            <img className='hero-image' src={mobileHero} alt='image-mobile' />
-          </div>
+          <div className='hero-image'></div>
         </div>
         <div className='text-container'>
           <h2 className='main-heading'>
