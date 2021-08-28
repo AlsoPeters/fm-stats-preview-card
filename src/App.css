@@ -16,7 +16,7 @@ body {
   /* flex-wrap: wrap;
   flex-direction: column; */
   margin: 20px;
-  height: 750px;
+  height: auto;
 }
 
 .card-container {
@@ -43,6 +43,7 @@ body {
 .text-container {
   padding: 30px;
   padding-top: 0;
+  padding-bottom: 0;
 }
 
 .main-heading {
@@ -67,6 +68,9 @@ p {
 }
 
 .companies-container {
+}
+
+.stats {
 }
 
 .stats-heading {
@@ -94,4 +98,75 @@ div.stats {
 }
 
 .queries-container {
+}
+
+@media only screen and (min-width: 600px) {
+  .app-container {
+    display: grid;
+    margin: 0;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+  }
+
+  .card-container {
+    display: grid;
+    width: 1110px;
+    height: 446px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero-image-container {
+    grid-column-end: 3;
+    max-height: auto;
+  }
+
+  .hero-image {
+    background-image: url(./images/image-header-desktop.jpg);
+    /* height: 446px;
+    width: 540px; */
+    width: 555px;
+    height: 446px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+
+  .text-container {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    padding: 70px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-rows: 0.75fr 1fr;
+  }
+
+  .main-heading {
+    margin-top: 15px;
+    justify-content: center;
+    font-size: 35px;
+    height: auto;
+    justify-content: left;
+  }
+
+  h2 {
+    text-align: left;
+  }
+
+  .main-paragraph {
+    font-size: large;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  .stats {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 0;
+    grid-row-start: 3;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

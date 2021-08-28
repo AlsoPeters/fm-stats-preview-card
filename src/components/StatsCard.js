@@ -18,18 +18,20 @@ export default function StatsCard() {
               regarding revenue, customer experience, and overall efficiency.
             </p>
           </div>
-          <section className='companies-container'>
-            <div className='companies-amount stats'>10k+</div>
-            <div className='stats-heading'>COMPANIES</div>
-          </section>
-          <section className='templates-container'>
-            <div className='templates-amount stats'>314</div>
-            <div className='stats-heading'>TEMPLATES</div>
-          </section>
-          <section className='queries-container'>
-            <div className='queries-amount stats'>12M+</div>
-            <div className='stats-heading'>QUERIES</div>
-          </section>
+          <div className='stats'>
+            <section className='companies-container'>
+              <div className='companies-amount stats'>10k+</div>
+              <div className='stats-heading'>COMPANIES</div>
+            </section>
+            <section className='templates-container'>
+              <div className='templates-amount stats'>314</div>
+              <div className='stats-heading'>TEMPLATES</div>
+            </section>
+            <section className='queries-container'>
+              <div className='queries-amount stats'>12M+</div>
+              <div className='stats-heading'>QUERIES</div>
+            </section>
+          </div>
         </div>
       </div>
     </div>
